@@ -1,0 +1,49 @@
+GitHub /Git Bash CMD
+
+1.	$ git –version
+2.	       $ git config --global user.name "Name as per GitHub "
+3.	           $ git config --global user.email “example@gmail.com”
+4.	           $ dir
+5.	           $ git config --list
+6.	             $ mkdir GitDemo
+7.	           $ cd GitDemo
+8.	           $ git status
+9.	           $ git init 
+10.	$ git status
+11.	$ echo Hello>msg.txt
+12.	$ git add .
+13.	$ git status
+14.	$ git commit -m "this is the first commit of list"
+15.	$ git log
+16.	$ git log --oneline
+17.	$ git diff
+18.	$ git add .
+19.	$ git commit -m "this is the 2nd commit of list"
+20.	$ git status
+21.	$ git log --oneline
+22.	$ git branch
+23.	$ git branch TEST
+24.	$ git switch TEST
+25.	$ echo I am adding 2nd extra contents for text file in           new branch > f1.txt.
+26.	$ git add .
+27.	$ git status
+28.	$ echo I am adding 1nd extra contents for text file in new branch >f2.txt
+29.	$ git status
+30.	$ git add .
+31.	$ git status
+32.	$ git log 
+33.	$ git log --oneline
+34.	$ git merge TEST
+35.	$ git switch master
+36.	$ git merge TEST
+37.	$ git branch -m main
+38.	$ git remote add origin https://github.com/repo-123.git Note : Make a repo in github copy and past url.
+39.	$ git push -u origin main (Note : Error can come)
+40.	$ git pull origin main
+41.	$ git add .
+42.	$ git commit -m "this is the new commit in main"
+43.	$ git push -u origin main –force
+44.	git pull
+45.	$ git status
+
+
